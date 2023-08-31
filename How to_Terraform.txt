@@ -6,7 +6,17 @@ aws configure
 accesskey
 secretaccesskey 
 
-initializes your Terraform configuration in the current directory & downloads required plugins
+3)How to install terraform in windows
+----------------------------------------
+https://developer.hashicorp.com/terraform/downloads
+i) download the Terraform zipfile from the above link for windows
+ii) create a folder named 'terraform' directly on the root of your C: drive. So, you should have C:\terraform
+iii) Copy the executable file from the zip file and paste it into the C:\terraform folder.
+iv)Add this C:\terraform to path in the environment variable 
+v) From command prompt type the below command, to check the installation
+	terraform --version.
+
+initializes your Terraform configuration in your project directory & it downloads required plugins
 ---------------
 terraform init
 
